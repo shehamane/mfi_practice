@@ -1,0 +1,158 @@
+{
+  "type": "OR",
+  "children": [
+    {
+      "type": "AND",
+      "children": [
+        {
+          "type": "a"
+        },
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "a"
+            }
+          
+        },
+        {
+          "type": "b"
+        },
+        {
+          "type": "c"
+        }
+      ]
+    },
+    {
+      "type": "AND",
+      "children": [
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "a"
+            }
+          
+        },
+        {
+          "type": "b"
+        },
+        {
+          "type": "c"
+        },
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "c"
+            }
+          
+        }
+      ]
+    },
+    {
+      "type": "AND",
+      "children": [
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "a"
+            }
+          
+        },
+        {
+          "type": "b"
+        },
+        {
+          "type": "c"
+        },
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "d"
+            }
+          
+        }
+      ]
+    },
+    {
+      "type": "AND",
+      "children": [
+        {
+          "type": "a"
+        },
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "b"
+            }
+          
+        },
+        {
+          "type": "b"
+        },
+        {
+          "type": "c"
+        }
+      ]
+    },
+    {
+      "type": "AND",
+      "children": [
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "b"
+            }
+          
+        },
+        {
+          "type": "b"
+        },
+        {
+          "type": "c"
+        },
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "c"
+            }
+          
+        }
+      ]
+    },
+    {
+      "type": "AND",
+      "children": [
+                {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "b"
+            }
+          
+        },
+        {
+          "type": "b"
+        },
+        {
+          "type": "c"
+        },
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "d"
+            }
+          
+        }
+      ]
+    }
+  ]
+}
+

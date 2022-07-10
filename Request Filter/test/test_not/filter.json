@@ -1,0 +1,15 @@
+{
+  "type": "OR",
+  "children": [
+    {
+      "type": "NOT",
+      "child": 
+        {
+          "type": "a"  
+        }
+    },
+    {
+      "type": "b"
+    }
+  ]
+}

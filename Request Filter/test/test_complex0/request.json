@@ -1,0 +1,67 @@
+{
+  "type": "AND",
+  "children": [
+    {
+      "type": "NOT",
+      "child": 
+        {
+          "type": "AND",
+          "children": [
+            {
+              "type": "a"
+            },
+            {
+              "type": "b"
+            }
+          ]
+        }
+      
+    },
+    {
+      "type": "NOT",
+      "child": 
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "AND",
+              "children": [
+                {
+                  "type": "b"
+                },
+                {
+                  "type": "c"
+                }
+              ]
+            }
+          
+        }
+      
+    },
+    {
+      "type": "OR",
+      "children": [
+        {
+          "type": "a"
+        },
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "c"
+            }
+          
+        },
+        {
+          "type": "NOT",
+          "child": 
+            {
+              "type": "d"
+            }
+          
+        }
+      ]
+    }
+  ]
+}
+

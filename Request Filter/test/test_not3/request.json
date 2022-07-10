@@ -1,0 +1,18 @@
+{
+  "type": "NOT",
+  "child": 
+    {
+      "type": "NOT",
+      "child": 
+          {
+            "type": "NOT",
+            "child": 
+              {
+                "type": "a"
+              }
+            
+          }
+        
+    }
+ 
+}

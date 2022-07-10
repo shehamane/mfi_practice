@@ -1,0 +1,7 @@
+{
+  "type": "NOT",
+  "child": 
+    {
+      "type": "b"
+    }
+}

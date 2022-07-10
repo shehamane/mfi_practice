@@ -1,0 +1,17 @@
+{
+  "loader_command": "python3 ../../loader.py --dir input --cfg config.json",
+  "header": "id,name,age",
+  "input": {
+    "dir_path": "./input",
+    "tmp_dir_path": "./input_tmp",
+    "delimiter": ","
+  },
+  "table": {
+    "host": "localhost",
+    "password": "048596",
+    "user": "postgres",
+    "name": "users",
+    "db": "mfi"
+  },
+  "expected_path": "./result.csv"
+}

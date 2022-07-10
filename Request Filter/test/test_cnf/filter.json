@@ -1,0 +1,41 @@
+{
+  "type": "OR",
+  "children": [
+    {
+      "type": "AND",
+      "children": [
+        {
+          "type": "a"
+        },
+        {
+          "type": "b"
+        }
+      ]
+    },
+    {
+      "type": "AND",
+      "children": [
+        {
+          "type": "c"
+        },
+        {
+          "type": "c"
+        }
+      ]
+    },
+    {
+      "type": "AND",
+      "children": [
+        {
+          "type": "b"
+        },
+        {
+          "type": "c"
+        }
+      ]
+    },
+    {
+      "type": "d"
+    }
+  ]
+}

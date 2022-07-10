@@ -1,0 +1,11 @@
+{
+  "type": "AND",
+  "children": [
+    {
+      "type": "c"
+    },
+    {
+      "type": "d"
+    }
+  ]
+}

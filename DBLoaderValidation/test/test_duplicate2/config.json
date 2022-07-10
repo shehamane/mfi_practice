@@ -1,0 +1,17 @@
+{
+  "loader_command": "python3 ../../loader.py --csv csv/src.csv --cfg config.json",
+  "header": false,
+  "input": {
+    "dir_path": "./csv",
+    "tmp_dir_path": "./csv_tmp",
+    "delimiter": ","
+  },
+  "table": {
+    "host": "localhost",
+    "password": "048596",
+    "user": "postgres",
+    "name": "users",
+    "db": "mfi"
+  },
+  "expected_path": "./expected.csv"
+}

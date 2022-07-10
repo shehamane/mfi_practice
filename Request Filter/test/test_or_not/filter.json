@@ -1,0 +1,8 @@
+{
+  "type": "NOT",
+  "child": 
+    {
+      "type": "a"
+    }
+}
+

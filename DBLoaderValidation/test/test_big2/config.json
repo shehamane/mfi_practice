@@ -1,0 +1,17 @@
+{
+  "loader_command": "psql postgresql://postgres:048596@localhost:5432/mfi -c \"\\copy abonent_imei_full from 'csv_input/src.csv' (DELIMITER ';')\" 2>log/loader.log 1>log/loader.log",
+  "header": false,
+  "input": {
+    "dir_path": "./csv_input",
+    "tmp_dir_path": "./input_tmp",
+    "delimiter": ";"
+  },
+  "table": {
+    "host": "localhost",
+    "password": "048596",
+    "user": "postgres",
+    "name": "abonent_imei_full",
+    "db": "mfi"
+  },
+  "expected_path": "./result.csv"
+}

@@ -1,0 +1,79 @@
+{
+  "type": "AND",
+  "children": [
+    {
+      "type": "NOT",
+      "child": {
+        "type": "b"
+      }
+    },
+    {
+      "type": "AND",
+      "children": [
+        {
+          "type": "NOT",
+          "child": {
+            "type": "OR",
+            "children": [
+              {
+                "type": "a"
+              },
+              {
+                "type": "b"
+              },
+              {
+                "type": "c"
+              }
+            ]
+          }
+        },
+        {
+          "type": "AND",
+          "children": [
+            {
+              "type": "OR",
+              "children": [
+                {
+                  "type": "OR",
+                  "children": [
+                    {
+                      "type": "a"
+                    },
+                    {
+                      "type": "d"
+                    }
+                  ]
+                },
+                {
+                  "type": "OR",
+                  "children": [
+                    {
+                      "type": "e"
+                    },
+                    {
+                      "type": "f"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "NOT",
+              "child": {
+                "type": "AND",
+                "children": [
+                  {
+                    "type": "a"
+                  },
+                  {
+                    "type": "f"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

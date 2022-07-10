@@ -1,0 +1,5 @@
+docker==4.4.0
+docker-compose==1.27.4
+python-dotenv==0.15.0
+websocket-client==0.57.0
+multiset==2.1.1
